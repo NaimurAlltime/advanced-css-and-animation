@@ -27,6 +27,7 @@
     height: 100px;
     border-radius: 50%;
     background-color: blueviolet;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
     animation: sliding 2s ease-in-out 0.5s infinite alternate;
     animation-play-state: running;
     position: relative;
