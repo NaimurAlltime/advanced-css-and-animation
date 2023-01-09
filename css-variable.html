@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variable</title>
+    <style>
+        :root {
+            --primary-color: green;
+            --bg1: rgb(135, 179, 12);
+        }
+        .header3 {
+            color: var(--primary-color);
+            background-color: var(--bg1);
+        }
+        .box {
+            width: 100px;
+            height: 100px;background-color: var(--bg1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Css variable</h1>
+    <h2 class="header1">heading-1</h2>
+    <h2 class="header2">heading-2</h2>
+    <h2 class="header3">heading-3</h2>
+    <h2 class="header4">heading-4</h2>
+    <h2 class="header5">heading-5</h2>
+    <div class="box"></div>
+</body>
+</html>
