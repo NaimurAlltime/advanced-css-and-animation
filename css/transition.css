@@ -1,0 +1,14 @@
+.box-container {
+    width: 150px;
+    height: 150px;
+    color: wheat;
+    border: 2px solid green;
+    background-color: brown;
+    transition: width 2s ease 1s, height 2s ease 1s, transform 2s ease 1s;
+}
+
+.box-container:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}
