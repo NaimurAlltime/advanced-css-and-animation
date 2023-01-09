@@ -1,0 +1,14 @@
+.container, .liner {
+    margin-bottom: 15px;
+    width: 150px;
+    height: 150px;
+    color: white;
+    border: 2px solid salmon;
+}
+.container {
+    background-color: aquamarine;
+}
+.liner {
+    background-color: blueviolet;
+    transform: translateY(40px) scale(.65) rotate(45deg);
+}
